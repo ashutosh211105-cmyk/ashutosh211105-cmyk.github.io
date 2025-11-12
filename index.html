@@ -38,16 +38,22 @@
             p:hover{
                 color: darkgray;
             }
+            #textbox{
+                align-content: center;
+            }
+            #output{
+                align-content: center;
+            }
         </style>
     </head>
     <body>
-        <div class="container-sm p-5 my-2 mt-3 border text-white bg-black text-center ">
+        <div class="container p-3 my-2 mt-3 border text-white bg-black text-center ">
             <h1>Welcome To The Basic Calculator</h1>
             <p>This page serves to provide an arithmatic calculator for your use</p>
         </div>
-        <div class="container-sm mt-5">
+        <div class="container mt-3">
             <div class="row">
-                <div class="col-sm-4 mt-5 text-white">
+                <div class="col-12 col-md-4 mt-4 text-white">
                     <h3 style="text-align:justify; text-decoration: underline darkgrey;">Select</h3><br> 
                     <p id="add" style="cursor:pointer; text-decoration: underline;">Addition</p><br>
                         <script>
@@ -162,10 +168,10 @@
                             };
                     </script>
                 </div>
-                <div class="col-sm-4 mt-5">
+                <div class="col-12 col-md-4 mt-4" id="textbox">
                     <p id="res"></p>
                 </div>
-                <div class="col-sm-4 mt-5">
+                <div class="col-12 col-md-4 mt-4" id="output" class="bg-secondary bg-opacity-75 rounded py-2">
                     <p id="ans"></p>
                 </div>
             </div>
